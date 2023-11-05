@@ -13,6 +13,11 @@ And that's it! Recover-source is ready for action :rocket:!
 To use recover-source, simply provide it with a directoy containing minified files:
 ```bash
 recover-source -i <path-to-directory-with-minified-files>
+recover-src -i <path-to-directory-with-minified-files> -o <path-to-output-directory>
+git clone git@github.com:cvrobot/recover-source.git
+npm install
+node index_new.js -i ../../extension/kfpgookelklhphhnihipmknjdgbeecgj/0.3.0_0/js -o ../../extension/kfpgookelklhphhnihipmknjdgbeecgj/0.3.0_0/code/
+node index_new.js -i ../../extension/kfpgookelklhphhnihipmknjdgbeecgj/0.3.0_0/static/css/popup.f4d6491b.css -o ../../extension/kfpgookelklhphhnihipmknjdgbeecgj/0.3.0_0/code/
 ```
 
 ... and watch as the original source code springs back into existence!
