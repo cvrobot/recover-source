@@ -120,7 +120,7 @@ const handlePath = (inputPath, outputPath) => {
 
         if (fs.statSync(absolutePath).isDirectory()) {
             handlePath(absolutePath, outputPath);
-        } else if (path.extname(absolutePath) === '.js') {
+        } else if (path.extname(absolutePath) === '.js' || path.extname(absolutePath) === '.css') {
             handleFile(absolutePath, outputPath);
         }
     }
