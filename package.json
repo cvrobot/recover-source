@@ -4,7 +4,8 @@
   "description": "Unmask the secrets of your minified code with Recover-Source! This CLI breathes life back into your JS/TS source code from a directory of minified/uglified files, along with their source maps. Watch as your original files return in all their pre-compilation glory!",
   "main": "index.js",
   "bin": {
-    "recover-source": "./index.js"
+    "recover-source": "./index.js",
+    "recover-src": "./index_new.js"
   },
   "scripts": {},
   "keywords": [
